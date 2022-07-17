@@ -1,0 +1,140 @@
+{
+  "editor.codeLensFontFamily": "hack",
+  "editor.fontSize": 20,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "scss.lint.boxModel": "warning",
+  "liveSassCompile.settings.excludeList": [
+    "**/node_modules/**",
+    ".vscode/**",
+    "**/Library/**",
+    "**/PWD/**"
+  ],
+  "liveSassCompile.settings.autoprefix": [
+    "> 1%",
+    "last 4 versions"
+  ],
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/calculator/src/css"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": false,
+  "explorer.confirmDelete": false,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "explorer.confirmDragAndDrop": false,
+  "beautify.language": {
+    "js": {
+      "type": [
+        "javascript",
+        "json",
+        "jsonc"
+      ],
+      "filename": [
+        ".jshintrc",
+        ".jsbeautifyrc"
+      ]
+    },
+    "css": [
+      "css",
+      "less",
+      "scss"
+    ],
+    "html": [
+      "htm",
+      "html"
+    ]
+  },
+  "editor.semanticTokenColorCustomizations": {
+    "[Default Dark+]": {
+      "rules": {
+        "method": "#f6546a",
+        "*.abstract": "#f6546a",
+        "comment": "#f6546a"
+      }
+    },
+    "[Noctis Obscuro]": {
+      "enabled": true,
+      "rules": {
+        "property":{
+          "foreground": "#f77183",
+          "fontStyle": "bold"
+        }
+      }
+      }
+    
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "python.terminal.executeInFileDir": true,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "vim.highlightedyank.enable": true,
+  "files.associations": {
+    "*.js": "javascript",
+    "*.jsx": "javascriptreact"
+  },
+  "quokka.showCodeLensInOutputChannel": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "[javascript]": {
+    // "editor.defaultFormatter": "HookyQR.beautify"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.tree.indent": 12,
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell",
+      "args": [
+        "-ExecutionPolicy",
+        "Bypass"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "bracketPairColorizer.depreciation-notice": false,
+  "files.autoSaveDelay": 5000,
+  "editor.cursorSurroundingLines": 5,
+  "git.confirmSync": false,
+  "editor.tabCompletion": "on",
+  "editor.stickyTabStops": true,
+  "[json]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Noctis Obscuro",
+  "tabnine.experimentalAutoImports": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.formatting.autopep8Args": ["--max-line-length", "120", "--experimental"],
+  "python.linting.enabled": false,
+  "python.linting.lintOnSave": false,
+  "workbench.colorCustomizations": {
+      "editor.selectionBackground": "#7764bb",
+      "editor.selectionHighlightBackground": "#135564",
+      "editor.wordHighlightBackground": "#5066009d",
+      "editor.wordHighlightStrongBackground": "#3d6b019d",
+      "editor.findMatchBackground": "#135564",
+      "editor.findMatchBorder": "#ff007c",
+      "editor.findMatchHighlightBackground": "#135564",
+},
+  "vim.searchMatchTextColor": "#ff0000",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  }
+}

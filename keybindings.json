@@ -1,0 +1,28 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+shift+n",
+        "command": "workbench.files.action.createFolderFromExplorer"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.files.action.createFileFromExplorer"
+    },
+    {
+        "key": "alt+a",
+        "command": "rest-client.request",
+        "when": "editorTextFocus && editorLangId == 'http'"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "-rest-client.request",
+        "when": "editorTextFocus && editorLangId == 'http'"
+    },
+    {
+        "key": "ctrl+,",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "cd '${fileDirname}'\u000D"
+        }
+    },
+]
